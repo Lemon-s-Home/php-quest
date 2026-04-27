@@ -79,6 +79,22 @@
   9. strategy;
   10. final small project.
 
+## Inheritance Teaching Plan
+- Do not present inheritance only as a bad idea from the start.
+- First let it look reasonable on a small game example:
+  - `Character`;
+  - `Warrior`;
+  - `Mage`;
+  - `Archer`.
+- Then expand the same domain with new requirements that put pressure on the hierarchy:
+  - temporary effects;
+  - combinations of buffs or states;
+  - equipment changes;
+  - behaviors that should vary without turning into "new creature types".
+- The student should feel the code becoming awkward before the course explains why.
+- After that, revisit the same kind of problem through composition and show why it scales better.
+- Do not call this sequence a "trap" in repository text or lesson text.
+
 ## Repository Links
 - Use organization-owned repository URLs.
 - Current clone URLs:

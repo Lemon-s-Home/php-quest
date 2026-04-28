@@ -283,65 +283,7 @@ assert(buildHeroTitle('Лена', 'Маг') === 'Лена the Маг');
 assert(buildHeroTitle('Игорь', 'Паладин') === 'Игорь the Паладин');
 ```
 
-Что здесь повторяем:
-
-- аргументы функции
-- возврат строки
-- склейку через `.`
-
-### 1.2. Рюкзак героя
-
-Напиши функцию:
-
-```php
-/**
- * @param array<int, string> $items
- */
-function backpackSummary(array $items): string
-```
-
-Она должна возвращать строку вида:
-
-```text
-В рюкзаке: меч, щит, зелье
-```
-
-Если массив пустой, вернуть:
-
-```text
-В рюкзаке: пусто
-```
-
-Подсказка: пригодится `implode(', ', $items)`.
-
-Пример заготовки:
-
-```php
-<?php
-
-declare(strict_types=1);
-
-/**
- * @param array<int, string> $items
- */
-function backpackSummary(array $items): string
-{
-    // TODO
-}
-
-assert(backpackSummary(['меч', 'щит', 'зелье']) === 'В рюкзаке: меч, щит, зелье');
-assert(backpackSummary(['лук']) === 'В рюкзаке: лук');
-assert(backpackSummary([]) === 'В рюкзаке: пусто');
-```
-
-Что здесь повторяем:
-
-- массивы
-- `count()`
-- `implode()`
-- `if`
-
-### 1.3. Функция урона
+### 1.2. Функция урона
 
 Напиши функцию:
 
@@ -370,12 +312,6 @@ assert(dealDamage(40, 25) === 15);
 assert(dealDamage(10, 30) === 0);
 assert(dealDamage(55, 5) === 50);
 ```
-
-Что здесь повторяем:
-
-- числа
-- условия
-- `return`
 
 ## Как запускать проверки
 

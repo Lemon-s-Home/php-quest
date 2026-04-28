@@ -213,12 +213,7 @@ class Player
    - Создание: `new Pet('Bobik', 40)`
    - `description()` должна вернуть `Bobik: 40 energy`
 
-3.2. Напиши класс `Weapon` с длинной записью конструктора: свойства отдельно, потом `__construct`, потом присваивания через `$this`.
-   - Создание: `new Weapon('Sword', 25)`
-   - Метод `strike()` должен вернуть `25`
-   - `description()` должна вернуть `Sword (урон: 25)`
-
-3.3. Напиши класс `Player` с короткой записью конструктора, private-свойствами `name` и `hp`, методом `takeDamage(int $damage)` и методом `description()`.
+3.2. Напиши класс `Player` с короткой записью конструктора, private-свойствами `name` и `hp`, методом `takeDamage(int $damage)` и методом `description()`.
    - Создание: `new Player('Mage', 80)`
    - После `takeDamage(30)` строка должна стать `Mage: 50 HP`
    - После ещё одного `takeDamage(100)` строка должна стать `Mage: 0 HP`

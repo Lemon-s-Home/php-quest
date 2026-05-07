@@ -48,7 +48,7 @@ NN-topic.php
 php 01-echo.php
 ```
 
-Начиная с урока 14 появляется Composer. Для таких примеров сначала выполни команды из урока (`composer dump-autoload`, `composer require ...`), а потом запускай `main.php`.
+Начиная с урока 15 появляется Composer. Для таких примеров сначала выполни команды из урока (`composer dump-autoload`, `composer require ...`), а потом запускай `main.php`.
 
 ## Стиль кода в этом курсе
 
@@ -72,7 +72,8 @@ php 01-echo.php
 11. [Объекты меняют поведение: стратегия](./11-strategy.md)
 12. [Классы получают адрес: namespace](./12-namespace.md)
 13. [Классы подключаются сами: свой autoload](./13-autoload.md)
-14. [Composer берёт загрузку на себя: PSR-4 и VarDumper](./14-composer-vardumper.md)
-15. [Разговариваем с объектами: PsySH](./15-psysh.md)
-16. [Терминал становится игровым: CLImate](./16-climate.md)
-17. [Числа уезжают в конфиг](./17-config-numbers.md)
+14. [Настраиваем WSL: рабочая среда](./14-wsl-setup.md)
+15. [Composer берёт загрузку на себя: PSR-4 и VarDumper](./15-composer-vardumper.md)
+16. [Разговариваем с объектами: PsySH](./16-psysh.md)
+17. [Терминал становится игровым: CLImate](./17-climate.md)
+18. [Числа уезжают в конфиг](./18-config-numbers.md)

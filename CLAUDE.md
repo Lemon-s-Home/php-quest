@@ -35,15 +35,16 @@
 - The post-strategy infrastructure arc is intentional:
   1. namespace;
   2. custom autoload;
-  3. Composer PSR-4 autoload plus VarDumper;
-  4. PsySH;
-  5. CLImate;
-  6. PHP config for game balance numbers.
+  3. WSL setup (fish, Starship, bat, eza, Nerd Font, PHP, Composer);
+  4. Composer PSR-4 autoload plus VarDumper;
+  5. PsySH;
+  6. CLImate;
+  7. PHP config for game balance numbers.
 - Do not restore the old "files and state" mini-project as lesson 12; that was a `cpp-quest` carry-over and is not the right next step here.
 
 ## Current Structure
 - Course entry: `README.md`
-- Lessons written: 01–17
+- Lessons written: 01–18
   - `01-php-basics-review.md` — recap: variables, strings, arrays, functions
   - `02-classes-and-objects.md` — first class and object
   - `03-objects-are-born-ready.md` — constructor, promoted properties
@@ -57,10 +58,11 @@
   - `11-strategy.md` — strategy pattern, AttackStyle
   - `12-namespace.md` — namespace, full class names, `use`, still with `require_once`
   - `13-autoload.md` — custom `spl_autoload_register`
-  - `14-composer-vardumper.md` — Composer PSR-4 autoload, `symfony/var-dumper`, `require-dev`
-  - `15-psysh.md` — PsySH REPL for inspecting game objects
-  - `16-climate.md` — `league/climate`, terminal output/input, `GameOutput`, `PlayerInput`
-  - `17-config-numbers.md` — PHP config for weapon and effect numbers, no factory yet
+  - `14-wsl-setup.md` — WSL, fish, Starship, bat, eza, Nerd Font, PHP, Composer
+  - `15-composer-vardumper.md` — Composer PSR-4 autoload, `symfony/var-dumper`, `require-dev`
+  - `16-psysh.md` — PsySH REPL for inspecting game objects
+  - `17-climate.md` — `league/climate`, terminal output/input, `GameOutput`, `PlayerInput`
+  - `18-config-numbers.md` — PHP config for weapon and effect numbers, no factory yet
 
 ## Lesson 01 Decisions
 - Lesson 01 is a recap after C++, not a beginner intro to PHP from scratch.
@@ -107,11 +109,12 @@
   10. ✅ strategy (lesson 11);
   11. ✅ namespace (lesson 12);
   12. ✅ custom autoload (lesson 13);
-  13. ✅ Composer autoload and VarDumper (lesson 14);
-  14. ✅ PsySH (lesson 15);
-  15. ✅ CLImate for terminal I/O (lesson 16);
-  16. ✅ PHP config for weapon and effect numbers, without factories (lesson 17);
-  17. continue growing the text-mode game (planned).
+  13. ✅ WSL setup: fish, Starship, bat, eza, PHP, Composer (lesson 14);
+  14. ✅ Composer autoload and VarDumper (lesson 15);
+  15. ✅ PsySH (lesson 16);
+  16. ✅ CLImate for terminal I/O (lesson 17);
+  17. ✅ PHP config for weapon and effect numbers, without factories (lesson 18);
+  18. continue growing the text-mode game (planned).
 
 ## Inheritance Teaching Plan
 - Do not present inheritance only as a bad idea from the start.
